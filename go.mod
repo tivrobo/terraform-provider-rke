@@ -11,13 +11,14 @@ require (
 	github.com/sirupsen/logrus v1.6.0
 	golang.org/x/crypto v0.0.0-20210616213533-5ff15b29337e // indirect
 	gopkg.in/yaml.v2 v2.2.8
-	k8s.io/api v0.20.0
-	k8s.io/apimachinery v0.20.0
-	k8s.io/apiserver v0.20.0
-	k8s.io/client-go v0.20.0
+	k8s.io/api v0.22.2
+	k8s.io/apimachinery v0.22.2
+	k8s.io/apiserver v0.22.2
+	k8s.io/client-go v0.22.2
 )
 
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190916202348-b4ddaad3f8a3
+	k8s.io/client-go => k8s.io/client-go v0.22.2
 	github.com/rancher/terraform-provider-rke => github.com/tivrobo/terraform-provider-rke
 )
