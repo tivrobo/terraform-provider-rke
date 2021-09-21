@@ -14,10 +14,11 @@ require (
 	k8s.io/api v0.20.0
 	k8s.io/apimachinery v0.20.0
 	k8s.io/apiserver v0.20.0
-	k8s.io/client-go v12.0.0+incompatible
+	k8s.io/client-go v0.20.0
 )
 
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190916202348-b4ddaad3f8a3
 	k8s.io/client-go => k8s.io/client-go v0.20.0
+	github.com/rancher/terraform-provider-rke => github.com/tivrobo/terraform-provider-rke
 )
