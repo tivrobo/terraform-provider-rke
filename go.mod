@@ -1,4 +1,4 @@
-module github.com/rancher/terraform-provider-rke
+module github.com/tivrobo/terraform-provider-rke
 
 go 1.16
 
@@ -20,5 +20,4 @@ require (
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190916202348-b4ddaad3f8a3
 	k8s.io/client-go => k8s.io/client-go v0.20.0
-	github.com/rancher/terraform-provider-rke => github.com/tivrobo/terraform-provider-rke
 )
